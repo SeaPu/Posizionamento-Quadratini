@@ -1,0 +1,59 @@
+.Container {
+  height: 500px;
+  width: auto;
+  border: 1px solid black;
+  margin: 1px;
+  background-color: #C7CEEA;
+  }
+
+.Square1 {
+  height: 250px;
+  width: 250px;
+  margin: 1px;
+  background-color: #FFDAC1;
+  display: inline-block; 
+  position: relative;
+}
+
+.Square2 {
+  height: 250px;
+  width: 250px;
+  margin: 1px;
+  background-color: #FFDAC1;
+  display: inline-block;
+}
+
+#LittleSquare1 {
+  height: 100px;
+  width: 100px;
+  background-color: #FFB7B2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#LittleSquare2 {
+  height: 100px;
+  width: 100px;
+  background-color: #FF9AA2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#LittleSquare3 {
+  height: 100px;
+  width: 100px;
+  background-color: #E2F0CB;
+  position: relative;
+  display: block;
+}
+
+#LittleSquare4 {
+  height: 100px;
+  width: 100px;
+  background-color: #B5EAD7;
+  position: relative;
+  left: 25px;
+  display: block;
+}
